@@ -2,6 +2,6 @@
 
 Udemy Course
 
-## Master branch will never contain code
+## Master branch always contains the base starter project for the lessons
 
 Any subject matter or sections discussed on Udemy will have their own branch. 
