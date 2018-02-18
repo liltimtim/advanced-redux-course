@@ -17,13 +17,13 @@ class UserList extends Component {
   }
 
   renderUser(user) {
-    const { name } = user;
+    const { name, company } = user;
     return (
       <div className="user-list-card">
         <div key={name} className="card card-block">
           <h4 className="card-title">{name}</h4>
-          <p className="card-text">Cheese Factory</p>
-          <a className="btn btn-primary">Email</a>
+          <p className="card-text">{company.name}</p>
+          <a className="btn btn-primary" href={user.website}>Website</a>
         </div>
       </div>
     );
